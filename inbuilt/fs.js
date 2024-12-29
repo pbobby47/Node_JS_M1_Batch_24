@@ -3,6 +3,23 @@
 // that means creating, deleting, and updating.
 
 const fs = require("fs");
+/*
+    >>> readFile
+    >>> appendFile
+    >>> writeFile
+    >>> writeFile
+    >>> unlink
+    >>> rename
+
+    >>> readFileSync
+    >>> appendFileSync
+    >>> writeFileSync
+    >>> writeFileSync
+    >>> unLinkSync
+    >>> renameSync
+    
+    >>> and lot more functions
+*/
 
 // ! create files
 // ? Example 1:
