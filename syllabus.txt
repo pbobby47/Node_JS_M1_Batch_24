@@ -1,0 +1,35 @@
+NPM
+Basic NodeJS(in built)(Os,file,http)
+NodeJS(full Stack App) (Node-EJs-Mongo-Express)
+Third Party Api (Weather Api)
+Redis  > 6379
+Node-Es6(.babel)
+RedisWithMongo
+ImageUpload
+ImageUpload(formidable)
+Email With Node(nodemailer)
+MongoDb Basic >27017  (local/cloud)
+Zomato App backend
+Api with NodeJS(Rest)>1
+Swagger
+DashBoard(Crud)
+Testing
+Github
+--Deployment of app---
+render
+Pm2
+Nginx
+Jenkins
+Login/Logout(JWT)
+Oauth(with github)
+TelegramChat
+GraphQl API
+Paytm-Payment
+Oauth(with google)
+NodeJs with postgres
+Chatapp
+upload to s3 bucket
+FIREBASE (npm i -g firebase)
+Docker
+GitActions
+microservice(aws lambda)
