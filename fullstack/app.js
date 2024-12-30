@@ -299,9 +299,9 @@ app.set("views", "./src/views");
 app.set("view engine", "ejs");
 
 // third part middleware
-app.use(morgan());
-app.use(morgan("dev"));
-app.use(morgan("common", { stream: fs.createWriteStream(".app.log") }));
+// app.use(morgan());
+// app.use(morgan("dev"));
+// app.use(morgan("common", { stream: fs.createWriteStream(".app.log") }));
 // Reference: https://www.npmjs.com/package/morgan?activeTab=readme
 
 // custom middlewares

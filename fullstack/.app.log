@@ -1,0 +1,10 @@
+::1 - - [30/Dec/2024:15:12:07 +0000] "GET /products/details HTTP/1.1" 304 -
+::1 - - [30/Dec/2024:15:12:09 +0000] "GET /products/details HTTP/1.1" 304 -
+::1 - - [30/Dec/2024:15:12:29 +0000] "GET /products/details HTTP/1.1" 200 8769
+::1 - - [30/Dec/2024:15:12:49 +0000] "GET /products/details HTTP/1.1" 200 8785
+::1 - - [30/Dec/2024:15:12:51 +0000] "GET /products/details HTTP/1.1" 304 -
+::1 - - [30/Dec/2024:15:13:06 +0000] "GET /products/details HTTP/1.1" 200 8784
+::1 - - [30/Dec/2024:15:13:07 +0000] "GET /products/details HTTP/1.1" 304 -
+::1 - - [30/Dec/2024:15:13:07 +0000] "GET /products/details HTTP/1.1" 304 -
+::1 - - [30/Dec/2024:15:13:43 +0000] "GET /products/details HTTP/1.1" 200 8813
+::1 - - [30/Dec/2024:15:13:44 +0000] "GET /products/details HTTP/1.1" 304 -
