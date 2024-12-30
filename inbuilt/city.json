@@ -1,0 +1,82 @@
+[
+  {
+    "_id": 80,
+    "location_id": 79,
+    "location_name": "R S",
+    "state_id": 42,
+    "state": "Gujarat",
+    "country_name": "India"
+  },
+  {
+    "_id": 75,
+    "location_id": 99,
+    "location_name": "Agraharam",
+    "state_id": 12,
+    "state": "Andhra Pradesh",
+    "country_name": "India"
+  },
+  {
+    "_id": 48,
+    "location_id": 87,
+    "location_name": "Sadar Bazar",
+    "state_id": 47,
+    "state": "Uttar Pradesh",
+    "country_name": "India"
+  },
+  {
+    "_id": 65,
+    "location_id": 33,
+    "location_name": "Agraharam",
+    "state_id": 67,
+    "state": "Andhra Pradesh",
+    "country_name": "India"
+  },
+  {
+    "_id": 35,
+    "location_id": 26,
+    "location_name": "Agraharam",
+    "state_id": 80,
+    "state": "Andhra Pradesh",
+    "country_name": "India"
+  },
+  {
+    "_id": 29,
+    "location_id": 26,
+    "location_name": "Agraharam",
+    "state_id": 66,
+    "state": "Andhra Pradesh",
+    "country_name": "India"
+  },
+  {
+    "_id": 23,
+    "location_id": 15,
+    "location_name": "R S",
+    "state_id": 43,
+    "state": "Gujarat",
+    "country_name": "India"
+  },
+  {
+    "_id": 98,
+    "location_id": 42,
+    "location_name": "R S",
+    "state_id": 46,
+    "state": "Gujarat",
+    "country_name": "India"
+  },
+  {
+    "_id": 21,
+    "location_id": 34,
+    "location_name": "Sadar Bazar",
+    "state_id": 76,
+    "state": "Uttar Pradesh",
+    "country_name": "India"
+  },
+  {
+    "_id": 2,
+    "location_id": 87,
+    "location_name": "Sadar Bazar",
+    "state_id": 91,
+    "state": "Uttar Pradesh",
+    "country_name": "India"
+  }
+]

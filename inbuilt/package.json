@@ -1,0 +1,11 @@
+{
+  "name": "inbuilt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "staticApi.js",
+  "scripts": {
+    "start": "node staticApi.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
