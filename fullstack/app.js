@@ -274,6 +274,9 @@ app.listen(8000, err => {
 // Lets store the in MVC pattern.
 
 const express = require("express");
+const morgan = require("morgan");
+const fs = require("fs");
+
 const categoryRouter = require("./src/controllers/categoryRouter");
 const productRouter = require("./src/controllers/productRouter");
 
@@ -282,12 +285,26 @@ const app = express();
 
 // default route
 app.get("/", (req, res) => {
-  res.send(
-    "<h1>This is Dashboard page, Please choose category / products</h1>"
-  );
+  //   res.send(
+  //     "<h1>This is Dashboard page, Please choose category / products</h1>"
+  //   );
+  res.render("index", { title: "My EJS File", page: "Home" });
 });
 
-// middlewares
+// static file path
+app.use(express.static(__dirname + "/public"));
+// html files path
+app.set("views", "./src/views");
+// view engine
+app.set("view engine", "ejs");
+
+// third part middleware
+app.use(morgan());
+app.use(morgan("dev"));
+app.use(morgan("common", { stream: fs.createWriteStream(".app.log") }));
+// Reference: https://www.npmjs.com/package/morgan?activeTab=readme
+
+// custom middlewares
 app.use("/category", categoryRouter);
 app.use("/products", productRouter);
 
