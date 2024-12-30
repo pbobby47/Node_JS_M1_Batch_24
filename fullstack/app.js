@@ -288,7 +288,7 @@ app.get("/", (req, res) => {
   //   res.send(
   //     "<h1>This is Dashboard page, Please choose category / products</h1>"
   //   );
-  res.render("index", { title: "My EJS File", page: "Home" });
+  res.render("pages/index", { title: "My EJS File", page: "Home" });
 });
 
 // static file path
