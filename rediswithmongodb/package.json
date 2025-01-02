@@ -1,0 +1,19 @@
+{
+  "name": "rediswithmongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongo": "^0.1.0",
+    "redis": "^4.7.0"
+  }
+}

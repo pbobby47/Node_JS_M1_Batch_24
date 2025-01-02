@@ -9,7 +9,7 @@ app.set("view engine", "ejs");
 
 app.get("/weather", (req, res) => {
   let city = req.query.city ? req.query.city : "Delhi";
-  let url = `https://api.openweathermap.org/data/2.5/forecast/daily?q=${city}&mode=json&units=metric&cnt=5&appid=44be59727524bb0c620da922401fe88a`;
+  let url = `https://api.openweathermap.org/data/2.5/forecast/daily?q=${city}&mode=json&units=metric&cnt=5&appid=YOUR_OWN_API_KEY`;
   // calling api
   request(url, (err, response, body) => {
     if (err) throw err;
